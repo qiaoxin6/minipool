@@ -1,0 +1,6 @@
+com\minipool\PoolMetrics.class
+com\minipool\PooledConnection.class
+com\minipool\ConnectionPool.class
+com\minipool\test.class
+com\minipool\PoolConfig.class
+com\minipool\PoolDataSource.class

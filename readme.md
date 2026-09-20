@@ -19,7 +19,7 @@
 │  lock (ReentrantLock) + notEmpty (Condition)             │
 └─────────────────────────────────────────────────────────┘
           ↑                   ↑
-     borrowConnection()   releaseConnection()..
+     borrowConnection()   releaseConnection()
           ↓                   ↓
    ┌─────────────┐    ┌─────────────────┐
    │ 池空? 等待   │    │ close() → 归还  │
